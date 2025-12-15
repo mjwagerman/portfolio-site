@@ -7,7 +7,7 @@ function About() {
       <div className="about-content">
         <div className="about-image">
           <div className="image-placeholder">
-            <span>Your Action Photo Here</span>
+            <span> Photo Here</span>
           </div>
         </div>
         <div className="about-text">

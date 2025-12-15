@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import Home from './components/Home'
 import About from './components/About'
@@ -7,6 +8,20 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 
 function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (!element) return;
@@ -42,7 +57,7 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="logo" onClick={() => scrollToSection('home')}>
-            MW
+            <img src="/portfolio-site/logo.svg" alt="MW Logo" />
           </div>
           <nav className="nav">
             <button onClick={() => scrollToSection('home')}>Home</button>

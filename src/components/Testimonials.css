@@ -1,10 +1,10 @@
 .testimonials-section {
-  background-color: #1a1a1a;
+  background-color: #ffffff;
 }
 
 .testimonials-intro {
   font-size: 1.2rem;
-  color: #999;
+  color: #86868b;
   margin-top: -1.5rem;
   margin-bottom: 3rem;
 }
@@ -18,16 +18,16 @@
 }
 
 .testimonial-card {
-  background-color: #242424;
+  background-color: #f5f5f7;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 .testimonial-header {
@@ -45,7 +45,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #646cff 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #007AFF 0%, #007AFF 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,20 +69,20 @@
 
 .testimonial-info h3 {
   font-size: 1.3rem;
-  color: #fff;
+  color: #1d1d1f;
   margin-bottom: 0.25rem;
 }
 
 .testimonial-title {
   font-size: 0.95rem;
-  color: #999;
+  color: #86868b;
   margin: 0;
 }
 
 .testimonial-quote {
   font-size: 1rem;
   line-height: 1.6;
-  color: #ccc;
+  color: #1d1d1f;
   font-style: italic;
   text-align: left;
   margin: 0;
