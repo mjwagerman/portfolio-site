@@ -40,7 +40,7 @@ function Home() {
           <h1 className="home-name">Mathew Wagerman</h1>
           <p className="home-title">Software Engineer</p>
           <p className="home-description">
-            Passionate about learning and building software
+            Passionate about learning and building secure software
           </p>
           <div className="home-cta">
             <button className="cta-button primary" onClick={() => scrollToSection('resume')}>View My Work</button>

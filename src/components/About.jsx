@@ -1,4 +1,5 @@
 import './About.css';
+import hike from '../assets/hike.jpg'
 
 function About() {
   return (
@@ -7,12 +8,12 @@ function About() {
       <div className="about-content">
         <div className="about-image">
           <div className="image-placeholder">
-            <span> Photo Here</span>
+            <img src={hike} alt="Hike photo" />
           </div>
         </div>
         <div className="about-text">
           <p className="about-paragraph">
-           I have had a long-standing passion for building and understanding computers and software. I began working professionally in software engineering and cybersecurity at 18 and have continued to grow in the field since.
+           I’ve had a long-standing passion for building and understanding computers and software. I began working professionally in software engineering and cybersecurity at the age of 18 and have continued to grow in the field ever since. Outside of work, I enjoy being active and spending time outdoors. When I’m not at my desk, you’ll usually find me somewhere in nature.
           </p>
           <div className="about-document">
             <a href="https://drive.google.com/file/d/1ffI-yqlinya1Kc_Oi_CttuvaMSkA5grB/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="pdf-link">

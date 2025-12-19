@@ -34,6 +34,12 @@
   overflow: hidden;
 }
 
+.about-image .image-placeholder img {
+  width: 125%;
+  height: 125%;
+  object-fit: cover;
+}
+
 .about-image .image-placeholder span {
   color: #888;
   font-size: 1.2rem;

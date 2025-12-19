@@ -9,7 +9,7 @@ function Strengths() {
   const strengths = [
     {
       name: "Discipline",
-      description: "I enjoy routine and structure. My world is best described by the order I create.",
+      description: "I enjoy routine and structure. Creating order helps me stay focused and grounded.",
       icon: disciplineIcon
     },
     {
@@ -29,7 +29,7 @@ function Strengths() {
     },
     {
       name: "Deliberative",
-      description: "I am best described by the serious care I take in making decisions or choices. I anticipate obstacles.",
+      description: "I am best described by the serious care I take in making decisions or choices.",
       icon: deliberativeIcon
     }
   ];
